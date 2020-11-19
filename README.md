@@ -2,7 +2,7 @@
 
 This repository contains the source code for HTTP Dump - a Laravel application that creates unique URLs for you, to inspect HTTP requests.
 
-The app has 
+The HTTP requests get stored in Redis by default. Check out `config/httpdump.php` to see the available configuration options, when self-hosting the application.
 
 ### Security
 
